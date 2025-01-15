@@ -34,11 +34,12 @@
 		<button
 			on:click={goTop}
 			class="ml-auto grid aspect-square cursor-pointer place-items-center rounded-full bg-slate-900 px-3 text-violet-400 hover:bg-slate-800 sm:px-4"
+			aria-label="Scroll to top"
 		>
-			<i class="fa-solid fa-arrow-up" />
+			<i class="fa-solid fa-arrow-up"></i>
 		</button>
 	</div>
-	<Header {y} {innerHeight} />
+	<Header {y} />
 	<slot />
 	<Footer />
 </div>
