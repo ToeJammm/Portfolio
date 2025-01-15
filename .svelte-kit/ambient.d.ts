@@ -41,7 +41,6 @@ declare module '$env/static/private' {
 	export const CONDA_PROMPT_MODIFIER: string;
 	export const GSETTINGS_SCHEMA_DIR_CONDA_BACKUP: string;
 	export const WINDOWID: string;
-	export const npm_package_optional: string;
 	export const COLOR: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
@@ -50,16 +49,14 @@ declare module '$env/static/private' {
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const CONDA_EXE: string;
-	export const npm_package_peer: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
-	export const npm_package_integrity: string;
 	export const _CE_CONDA: string;
 	export const PATH: string;
 	export const GSETTINGS_SCHEMA_DIR: string;
-	export const npm_config_engine_strict: string;
 	export const npm_package_json: string;
+	export const npm_config_engine_strict: string;
 	export const _: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
@@ -73,17 +70,13 @@ declare module '$env/static/private' {
 	export const LANG: string;
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
-	export const npm_package_engines_node: string;
-	export const npm_package_dev: string;
 	export const npm_config_node_gyp: string;
 	export const npm_package_version: string;
 	export const _CE_M: string;
 	export const XPC_SERVICE_NAME: string;
-	export const npm_package_resolved: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const HOMEBREW_PREFIX: string;
-	export const npm_package_dev_optional: string;
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const CONDA_PYTHON_EXE: string;
@@ -98,6 +91,7 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -144,7 +138,6 @@ declare module '$env/dynamic/private' {
 		CONDA_PROMPT_MODIFIER: string;
 		GSETTINGS_SCHEMA_DIR_CONDA_BACKUP: string;
 		WINDOWID: string;
-		npm_package_optional: string;
 		COLOR: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
@@ -153,16 +146,14 @@ declare module '$env/dynamic/private' {
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		CONDA_EXE: string;
-		npm_package_peer: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
-		npm_package_integrity: string;
 		_CE_CONDA: string;
 		PATH: string;
 		GSETTINGS_SCHEMA_DIR: string;
-		npm_config_engine_strict: string;
 		npm_package_json: string;
+		npm_config_engine_strict: string;
 		_: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
@@ -176,17 +167,13 @@ declare module '$env/dynamic/private' {
 		LANG: string;
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
-		npm_package_engines_node: string;
-		npm_package_dev: string;
 		npm_config_node_gyp: string;
 		npm_package_version: string;
 		_CE_M: string;
 		XPC_SERVICE_NAME: string;
-		npm_package_resolved: string;
 		SHLVL: string;
 		HOME: string;
 		HOMEBREW_PREFIX: string;
-		npm_package_dev_optional: string;
 		npm_config_cache: string;
 		LOGNAME: string;
 		CONDA_PYTHON_EXE: string;
@@ -201,6 +188,7 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
