@@ -2,8 +2,8 @@
 	export let y;
 
 	export let tabs = [
-		{ name: 'Projects', link: '#projects' },
-		{ name: 'About Me', link: '#about' },
+		{ name: 'Projects', link: 'projects' },
+		{ name: 'About Me', link: 'about' },
 		{ name: 'LinkedIn', link: 'https://www.linkedin.com/in/jake-marlow-8255a3186/' },
 		{ name: 'GitHub', link: 'https://github.com/ToeJammm' }
 	];
