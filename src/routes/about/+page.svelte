@@ -1,10 +1,10 @@
-<main class="flex h-fit flex-col p-4">
+<main class="z-[1] flex h-fit flex-col p-4">
 	<div class="flex flex-col justify-center md:flex-row lg:flex-row lg:justify-around">
-		<div class="ml-10 flex w-[100%] flex-col sm:w-[100%] sm:pr-5 lg:w-[50%]">
+		<div class="ml-5 flex w-[100%] flex-col sm:w-[100%] sm:pr-5 lg:w-[50%]">
 			<h2 class=" pb-8 text-4xl font-semibold sm:text-5xl md:text-6xl">
 				About <span class="poppins text-violet-400">Me</span>
 			</h2>
-			<div class="mr-[70px] pb-8 sm:w-[100%] sm:text-lg md:text-lg lg:text-[18px] xl:text-xl">
+			<div class="mr-[30px] pb-8 sm:w-[100%] sm:text-lg md:text-lg lg:text-[18px] xl:text-xl">
 				My name is <b>Jake Marlow</b>, and I am a Senior of Computer Science at the University of
 				Tennessee, Knoxville. During high school, I became interested in programming, yet I still
 				entered university as a graphic design major. After feeling like I wasn't being challenged
@@ -27,7 +27,7 @@
 		</div>
 		<div class="flex hidden w-[50%] justify-center lg:mr-[45px] lg:block">
 			<img
-				src="src/senior_photo.jpeg"
+				src="senior_photo.jpeg"
 				alt="me"
 				class=" lg:w-max-[40vw] ml-5 mr-5 max-h-[60vh] w-full rounded border-4 border-white object-cover object-top md:mr-10 md:w-[50vw] lg:mt-[92px]"
 			/>
