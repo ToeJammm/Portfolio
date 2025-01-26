@@ -16,6 +16,15 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			base: dev ? '' : process.env.BASE_PATH
+		},
+		prerender: {
+			handleHttpError: ({ status, path, referrer, referenceType }) => {
+				if (status === 404) {
+					console.warn(`404 encountered at ${path}, referrer: ${referrer}`);
+					return; // Suppress the error
+				}
+				throw new Error(`${status} at ${path}`);
+			}
 		}
 	}
 };
