@@ -1,0 +1,1 @@
+import{a as r,t}from"../chunks/disclose-version.4qQWTM9Z.js";import"../chunks/legacy.B9rBSQkr.js";import{q as m}from"../chunks/runtime.CZgCK7JV.js";import{p as e}from"../chunks/props.BxsZIJYn.js";var n=t("<h1>My Projects</h1> <p>in detail</p>",1);function d(p,a){e(a,"params",8);var o=n();m(2),r(p,o)}export{d as component};
