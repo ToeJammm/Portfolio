@@ -1,5 +1,5 @@
 <footer
-	class="flex flex-col items-center justify-center gap-4 border-t border-solid border-violet-950 bg-black sm:gap-8 sm:py-20"
+	class="z-[2] flex flex-col items-center justify-center gap-4 border-t border-solid border-violet-950 bg-black sm:gap-8 sm:pt-10"
 >
 	<div class="flex flex-col items-center justify-center gap-4">
 		<p>

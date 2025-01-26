@@ -25,11 +25,11 @@
 				Zed, Docker, DASH, MySQL/MSSQL,
 			</div>
 		</div>
-		<div class="flex hidden w-[50%] justify-center lg:mr-[45px] lg:block">
+		<div class="flex hidden h-[50%] justify-center lg:mr-[45px] lg:block">
 			<img
 				src="senior_photo.jpeg"
 				alt="me"
-				class=" lg:w-max-[40vw] ml-5 mr-5 max-h-[60vh] w-full rounded border-4 border-white object-cover object-top md:mr-10 md:w-[50vw] lg:mt-[92px]"
+				class="aspect-square h-[50vh] max-h-[500px] rounded-full border-4 border-white object-cover object-top lg:mt-[92px]"
 			/>
 		</div>
 	</div>

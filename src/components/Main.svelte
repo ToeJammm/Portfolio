@@ -5,19 +5,22 @@
 			name: 'ClassMate Webapp',
 			icon: 'classMateLogo.png',
 			description:
-				'A SERN stack application designed to make choosing college courses easier by allowing students to rate their courses (and not JUST their professors)'
-		}, //send to url
+				'A SERN stack application designed to make choosing college courses easier by allowing students to rate their courses (and not JUST their professors)',
+			link: 'https://github.com/ToeJammm/ClassMate'
+		},
 		{
 			name: 'Simple Shell',
 			icon: '',
 			description:
-				'A simple shell written in C. Fast, efficient, and user friendly. Capable of all basic commands, piping, and standard input/output operators'
-		}, //take ss of it working and make a page for it
+				'A simple shell written in C. Fast, efficient, and user friendly. Capable of all basic commands, piping, and standard input/output operators',
+			link: 'https://github.com/ToeJammm/J-Shell'
+		},
 		{
-			name: 'Neural Network',
+			name: 'J-Net Neural Network',
 			icon: '',
 			description:
-				'Simple neural network built from scratch in C++. Accepts CSV files for training and is capable of both data processing, training, and valdidating itself for simple regression problems.'
+				'Simple neural network built from scratch in C++. Accepts CSV files for training and is capable of both data processing, training, and valdidating itself for simple regression problems.',
+			link: 'https://github.com/ToeJammm/J-Net'
 		} //take ss of it working and make page for it
 	];
 
