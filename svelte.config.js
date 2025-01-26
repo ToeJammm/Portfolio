@@ -13,10 +13,16 @@ const config = {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter(),
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		}),
 		paths: {
 			base: dev ? '' : process.env.BASE_PATH
-		},
+		}
 		// prerender: {
 		// 	handleHttpError: ({ status, path, referrer, referenceType }) => {
 		// 		if (status === 404) {
@@ -25,7 +31,6 @@ const config = {
 		// 		}
 		// 		throw new Error(`${status} at ${path}`);
 		// 	}
-		}
 	}
 };
 
