@@ -19,7 +19,7 @@
 	<h1
 		class="relative transform cursor-pointer overflow-hidden font-medium duration-200 hover:scale-110 hover:text-violet-400"
 	>
-		<a href="/">
+		<a href="/Portfolio">
 			<span class="">Home</span>
 		</a>
 	</h1>
