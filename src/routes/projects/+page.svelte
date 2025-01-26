@@ -3,5 +3,5 @@
 	export let params;
 </script>
 
-<h1>My Porjects</h1>
+<h1>My Projects</h1>
 <p>in detail</p>

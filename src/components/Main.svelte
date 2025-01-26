@@ -1,25 +1,24 @@
 <script>
 	import Step from './Step.svelte';
-
 	let steps = [
 		{
 			name: 'ClassMate Webapp',
 			icon: 'classMateLogo.png',
 			description:
 				'A SERN stack application designed to make choosing college courses easier by allowing students to rate their courses (and not JUST their professors)'
-		},
+		}, //send to url
 		{
-			name: 'Autentrics.ai Visual Tool',
+			name: 'Simple Shell',
 			icon: '',
 			description:
-				'A visula tool made with Plotly and D3.JS designed to aid in tuning neural network training by keeping track of parameters and graphing their shifts over time'
-		},
+				'A simple shell written in C. Fast, efficient, and user friendly. Capable of all basic commands, piping, and standard input/output operators'
+		}, //take ss of it working and make a page for it
 		{
-			name: 'C++ Feedforward Neural Network',
+			name: 'Neural Network',
 			icon: '',
 			description:
 				'Simple neural network built from scratch in C++. Accepts CSV files for training and is capable of both data processing, training, and valdidating itself for simple regression problems.'
-		}
+		} //take ss of it working and make page for it
 	];
 
 	let benefits = [
@@ -56,20 +55,12 @@
 				My <span class="text-violet-400">strengths</span> include Full Stack Web Development and Machine/Deep
 				Learning
 			</p>
-			<button
-				class="blueShadow poppins group relative mx-auto overflow-hidden rounded-full bg-white px-6 py-3 text-base text-slate-950 sm:text-lg md:text-xl"
-			>
-				<div
-					class="absolute right-full top-0 z-0 h-full w-full bg-violet-400 opacity-20 duration-200 group-hover:translate-x-full"
-				></div>
-				<h4 class="z-9 relative">Get in touch &rarr;</h4>
-			</button>
 		</div>
 		<div class="relative grid place-items-center shadow-2xl">
 			<img src={'jake4.png'} alt="Jake Marlow" class="z-[2] max-h-[70vh] object-cover" />
 		</div>
 	</section>
-	<section class="flex flex-col gap-24 py-20 lg:py-32" id="projects">
+	<section class="lg:py-15 flex flex-col gap-24 py-5" id="projects">
 		<div class="flex flex-col gap-2 text-center">
 			<h6 class="text-large sm:text-xl md:text-2xl">A few of my creative endeavors.</h6>
 			<h3 class="text-3xl font-semibold sm:text-4xl md:text-5xl">
@@ -79,7 +70,7 @@
 		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3 lg:gap-10">
 			{#each steps as step}
 				<Step {step}>
-					<p>{step.description}</p>
+					<p class="w-auto">{step.description}</p>
 				</Step>
 			{/each}
 		</div>
