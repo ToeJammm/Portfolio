@@ -55,8 +55,8 @@
 				<span class="poppins text-violet-400">Engineer</span>
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
-				My <span class="text-violet-400">strengths</span> include Full Stack Web Development and Machine/Deep
-				Learning
+				My <span class="text-violet-400">strengths</span> include Full Stack Web Development, Cyber Security,
+				and Machine/Deep Learning
 			</p>
 		</div>
 		<div class="relative grid place-items-center shadow-2xl">
